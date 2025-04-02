@@ -20,7 +20,8 @@
     "test:node:core:mt": "npm run test:node -- --require tests/test-helper-mt.js tests/ffmpeg-core.test.js",
     "test:node:core:st": "npm run test:node -- --require tests/test-helper-st.js tests/ffmpeg-core.test.js",
     "prepublishOnly": "npm run build",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "dummy": ""
   },
   "workspaces": [
     "packages/*",
